@@ -1,0 +1,40 @@
+[debug] [2020-11-17T04:33:21.444Z] : 
+[debug] [2020-11-17T04:33:21.447Z] : ----------------------------------------------------------------------
+[debug] [2020-11-17T04:33:21.448Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2020-11-17T04:33:21.448Z] : CLI Version:  1.2.1
+[debug] [2020-11-17T04:33:21.449Z] : Platform:     win32
+[debug] [2020-11-17T04:33:21.449Z] : Node Version: v14.15.0
+[debug] [2020-11-17T04:33:21.452Z] : Time:         Tue Nov 17 2020 10:03:21 GMT+0530 (India Standard Time)
+[debug] [2020-11-17T04:33:21.452Z] : ----------------------------------------------------------------------
+[debug] [2020-11-17T04:33:21.453Z] : 
+[debug] [2020-11-17T04:33:48.468Z] : > authorizing via signed-in user option
+[debug] [2020-11-17T04:33:48.469Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2020-11-17T04:33:48.539Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/1835000000054031 
+
+[debug] [2020-11-17T04:33:50.726Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 17 Nov 2020 04:33:49 GMT","content-type":"application/json;charset=UTF-8","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=1b609106-9ddd-45a1-b91c-4b80a780b1e2;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1b609106-9ddd-45a1-b91c-4b80a780b1e2;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","vary":"accept-encoding","strict-transport-security":"max-age=63072000"}
+
+[debug] [2020-11-17T04:33:50.736Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/1835000000054031/environment 
+
+[debug] [2020-11-17T04:33:51.686Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 17 Nov 2020 04:33:50 GMT","content-type":"application/json;charset=UTF-8","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=7cc90c3c-1e75-459b-b5b6-cc603d053117;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7cc90c3c-1e75-459b-b5b6-cc603d053117;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","vary":"accept-encoding","strict-transport-security":"max-age=63072000"}
+
+[debug] [2020-11-17T04:33:51.768Z] : migration in process
+[debug] [2020-11-17T04:33:51.769Z] : migration completed
+[debug] [2020-11-17T04:34:07.999Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/1835000000054031/function 
+Query params: {"type":"basicio,event,cron,applogic"}
+
+[debug] [2020-11-17T04:34:08.964Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 17 Nov 2020 04:34:08 GMT","content-type":"application/json;charset=UTF-8","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=014ce485bf2cf2299de0faf2fad1caf1; Path=/","ZD_CSRF_TOKEN=edc4b6fd-683d-4a5b-b97a-e26ed2fc72e0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=edc4b6fd-683d-4a5b-b97a-e26ed2fc72e0;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","vary":"accept-encoding","strict-transport-security":"max-age=63072000"}
+
+[info] [2020-11-17T04:34:09.077Z] : i server[shop_in_app_function]: URL : http://localhost:3000/server/shop_in_app_function/
+[info] [2020-11-17T04:34:09.112Z] : 
+[info] [2020-11-17T04:34:09.526Z] : i client[ShopIn]: URL : http://localhost:3000/app/
+[info] [2020-11-17T04:34:09.527Z] : 
+[debug] [2020-11-17T04:34:09.580Z] : > refreshing access token <
+[debug] [2020-11-17T04:34:09.581Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2020-11-17T04:34:11.299Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 17 Nov 2020 04:34:10 GMT","content-type":"application/json;charset=UTF-8","content-length":"194","connection":"close","set-cookie":["b266a5bf57=a711b6da0e6cbadb5e254290f114a026; Path=/","iamcsr=5db1d3eb-2c5d-42aa-b783-adfa6417c180;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5db1d3eb-2c5d-42aa-b783-adfa6417c180;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+

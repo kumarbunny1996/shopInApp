@@ -1,0 +1,24 @@
+const express = require("express");
+const handleRegister = require("./interActors/register.actor");
+const handleLogin = require("./interActors/login.actor");
+const handleProfile = require("./interActors/profile.actor");
+const authenticateToken = require("./middlewares/authenticate");
+const handleProducts = require("./interActors/products.actor");
+const handleSingleProduct = require("./interActors/singleProduct.actor");
+const saveAddressandCart = require("./interActors/saveAddress.actor");
+const handleOrders = require("./interActors/order.actor");
+const handleAddToCart = require("./interActors/addCart.actors");
+const handleGetCart = require("./interActors/getCart.actor");
+const app = express();
+app.use(express.json());
+
+app.post("/api/register", handleRegister);
+app.post("/api/login", handleLogin);
+app.get("/api/products", handleProducts);
+app.get("/api/singleProduct", handleSingleProduct);
+app.get("/api/profile", authenticateToken, handleProfile);
+app.post("/api/address", authenticateToken, saveAddressandCart);
+app.get("/api/orders", authenticateToken, handleOrders);
+app.post("/api/cart/addItems", authenticateToken, handleAddToCart);
+app.get("/api/cart", authenticateToken, handleGetCart);
+module.exports = app;

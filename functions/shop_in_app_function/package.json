@@ -1,0 +1,13 @@
+{
+	"name": "shop_in_app_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "kumarbunny3110@gmail.com",
+	"dependencies": {
+		"bcrypt": "^5.0.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"zcatalyst-sdk-node": "latest"
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "targets": [
+      "shop_in_app_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}

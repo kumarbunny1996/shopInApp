@@ -1,0 +1,35 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": 1835000000054031,
+      "name": "ShopInApp",
+      "domain": {
+        "id": 10023468966,
+        "name": "shopinapp-726360434.development"
+      },
+      "env": [
+        {
+          "idx": 1,
+          "id": "726360434",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ],
+  "migration": {
+    "1.0.2": {
+      "completed": true
+    },
+    "last_success": "1.0.2"
+  }
+}
